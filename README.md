@@ -5,7 +5,7 @@ I initally tested my algorithm with a 5x5 grid, eventually making it scalable an
 
 For making custom maps:
 
-1 = Blocked tile (eg a wall)
-0 = Movable tile
-x = Start tile
+1 = Blocked tile (eg a wall),
+0 = Movable tile,
+x = Start tile,
 y = Finish tile
