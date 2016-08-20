@@ -156,7 +156,9 @@ public class Pathfinding extends JFrame {
 		outputPath();
 	}
 	
-	// using my 5x5 grid above, setting up points that have (x, y) coordinates
+
+	// Going through and setting the points of the map. We also check for and set the
+	// starting point and the end point which we need in order to run
 	public static void setMap(String mapString) {
 		
 		openList.clear(); closedList.clear(); deadEnds.clear();
